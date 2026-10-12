@@ -1,44 +1,47 @@
 {
-  "name": "frontend",
-  "private": true,
-  "version": "0.0.0",
+  "name": "hypedin-main-website",
+  "version": "1.0.0",
+  "description": "A fully responsive React conversion of the HYPEDIN marketing agency website, maintaining all original styles, layouts, and animations using GSAP and Three.js.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitul82/Hypedin-main-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitul82/Hypedin-main-website/issues"
+  },
+  "homepage": "https://github.com/Mitul82/Hypedin-main-website#readme",
   "dependencies": {
-    "@google/genai": "^2.28.0",
-    "axios": "^1.20.0",
-    "countup.js": "^2.10.1",
+    "@google/genai": "^2.7.0",
+    "axios": "^1.18.1",
+    "countup.js": "^2.10.0",
     "d3-geo": "^3.1.1",
-    "dotenv": "^17.4.2",
-    "gsap": "^3.15.0",
+    "dotenv": "^17.4.0",
+    "gsap": "^3.12.5",
     "leaflet": "^1.9.4",
-    "lucide-react": "^1.54.0",
-    "react": "^18.3.1",
+    "lucide-react": "^1.14.0",
+    "react": "^18.2.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-helmet-async": "^3.0.0",
-    "react-hot-toast": "^2.6.1",
+    "react-hot-toast": "^2.6.0",
     "react-leaflet": "^4.2.1",
-    "react-router-dom": "^7.18.4",
+    "react-router-dom": "^7.14.0",
     "three": "^0.160.1"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.2",
-    "autoprefixer": "^10.6.1",
-    "eslint": "^10.10.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.6",
-    "globals": "^17.12.0",
-    "postcss": "^8.5.29",
-    "tailwindcss": "^3.4.19",
-    "vite": "^8.3.4"
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.6",
+    "vite": "^8.0.8"
   }
 }
