@@ -1,0 +1,15 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: hypedin-main-frontend
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - hypedin-main-network
+
+networks:
+  hypedin-main-network:
+    name: hypedin-main-network
