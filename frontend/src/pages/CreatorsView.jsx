@@ -616,13 +616,13 @@ export default function CreatorsView() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false)
 
   const brands = [
-    "McDonald's", 'H&M', 'Simon Carter', 'American Eagle',
-    "McDonald's", 'H&M', 'Simon Carter', 'American Eagle',
+    'Google','BGMI','Amazon','Swiggy',"McDonald's",'H&M','Simon Carter','American Eagle','Blinkit','Wishcare','Red FM', 'Fateh',
+    'Google','BGMI','Amazon','Swiggy',"McDonald's",'H&M','Simon Carter','American Eagle','Blinkit','Wishcare','Red FM', 'Fateh'
   ]
 
   const brands2 = [
-    'Dream11', 'Viacom18', 'Adobe', 'Veeba',
-    'Dream11', 'Viacom18', 'Adobe', 'Veeba',
+    'Plum','Bistro','Physics Wallah','Curefoods','XYXX','Old Spice','Unacademy','Skybags','Dream11','Viacom18','Adobe','Veeba',
+    'Plum','Bistro','Physics Wallah','Curefoods','XYXX','Old Spice','Unacademy','Skybags','Dream11', 'Viacom18','Adobe','Veeba',
   ]
 
   const allContent = [
