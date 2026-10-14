@@ -930,7 +930,7 @@ export default function CreatorsView() {
 
   {/* Marquee Row 1 */}
   <div className="relative flex overflow-x-hidden mb-6 md:mb-12 group/row1">
-    <div className="animate-marquee whitespace-nowrap flex gap-6 md:gap-10 py-2">
+    <div className="animate-marquee [animation-duration:90s] whitespace-nowrap flex gap-6 md:gap-10 py-2">
       {brands.map((brand, i) => (
         <div key={i} className="inline-flex items-center justify-center px-8 py-5 md:px-14 md:py-8 bg-white/[0.04] border border-white/10 rounded-full">
           <span className="font-heading font-bold uppercase tracking-normal text-neutral-500 text-xl md:text-4xl">
@@ -939,7 +939,7 @@ export default function CreatorsView() {
         </div>
       ))}
     </div>
-    <div className="animate-marquee whitespace-nowrap flex gap-6 md:gap-10 py-2 absolute top-0 left-0" aria-hidden="true">
+    <div className="animate-marquee [animation-duration:90s] whitespace-nowrap flex gap-6 md:gap-10 py-2 absolute top-0 left-0" aria-hidden="true">
       {brands.map((brand, i) => (
         <div key={`dup1-${i}`} className="inline-flex items-center justify-center px-8 py-5 md:px-14 md:py-8 bg-white/[0.04] border border-white/10 rounded-full">
           <span className="font-heading font-bold uppercase tracking-normal text-neutral-500 text-xl md:text-4xl">
@@ -952,7 +952,7 @@ export default function CreatorsView() {
 
   {/* Marquee Row 2 */}
   <div className="relative flex overflow-x-hidden group/row2">
-    <div className="animate-marquee-reverse whitespace-nowrap flex gap-6 md:gap-10 py-2">
+    <div className="animate-marquee-reverse [animation-duration:70s] whitespace-nowrap flex gap-6 md:gap-10 py-2">
       {brands2.map((brand, i) => (
         <div key={i} className="inline-flex items-center justify-center px-8 py-5 md:px-14 md:py-8 bg-white/[0.04] border border-white/10 rounded-full">
           <span className="font-heading font-bold uppercase tracking-normal text-neutral-500 text-xl md:text-4xl">
@@ -961,7 +961,7 @@ export default function CreatorsView() {
         </div>
       ))}
     </div>
-    <div className="animate-marquee-reverse whitespace-nowrap flex gap-6 md:gap-10 py-2 absolute top-0 left-0" aria-hidden="true">
+    <div className="animate-marquee-reverse [animation-duration:70s] whitespace-nowrap flex gap-6 md:gap-10 py-2 absolute top-0 left-0" aria-hidden="true">
       {brands2.map((brand, i) => (
         <div key={`dup1-${i}`} className="inline-flex items-center justify-center px-8 py-5 md:px-14 md:py-8 bg-white/[0.04] border border-white/10 rounded-full">
           <span className="font-heading font-bold uppercase tracking-normal text-neutral-500 text-xl md:text-4xl">
