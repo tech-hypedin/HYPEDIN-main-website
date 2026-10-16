@@ -139,6 +139,13 @@ export default function Navbar() {
           >
             Creators
           </button>
+
+          <button
+            onClick={() => handleNavigate('/careers')}
+            className="relative font-sans text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 hover:text-white transition-colors duration-300 group"
+          >
+            Careers
+          </button>
           
           <button
             onClick={() => handleNavigate('/contact')}

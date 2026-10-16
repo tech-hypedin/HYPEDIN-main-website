@@ -17,6 +17,7 @@ import ContactView from './pages/ContactView';
 import CreatorsForm from './pages/CreatorsForm.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
+import { Careers } from './pages/Careers.jsx';
 
 function App() {
   const [isLoaderComplete, setIsLoaderComplete] = useState(false)
@@ -73,6 +74,7 @@ function App() {
             <Route path="contact" element={<ContactView />} />
             <Route path="creators-form" element={<CreatorsForm />} />
             <Route path="privacy" element={<PrivacyPolicy />} />
+            <Route path="careers" element={<Careers/>}/>
           </Route>
           <Route path='*' element={<NotFoundPage />}/>
         </Routes>
