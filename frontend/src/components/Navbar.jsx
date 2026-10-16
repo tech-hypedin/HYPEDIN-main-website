@@ -220,6 +220,12 @@ export default function Navbar() {
             Creators
           </button>
           <button
+            onClick={() => handleNavigate('/careers')}
+            className="mobile-link nav-link font-heading text-4xl font-bold text-white hover:text-brand-red transition-colors uppercase tracking-tight opacity-0 translate-y-10"
+          >
+            Careers
+          </button>
+          <button
             onClick={() => handleNavigate('/contact')}
             className="mobile-link nav-link font-heading text-4xl font-bold text-white hover:text-brand-red transition-colors uppercase tracking-tight opacity-0 translate-y-10"
           >
